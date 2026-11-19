@@ -1,0 +1,4 @@
+// Merge into android/app/build.gradle inside the existing dependencies block.
+dependencies {
+    implementation 'com.microsoft.onnxruntime:onnxruntime-android:1.20.0'
+}
