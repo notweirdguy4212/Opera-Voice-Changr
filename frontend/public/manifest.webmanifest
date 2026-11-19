@@ -1,0 +1,12 @@
+{
+  "name": "Opera Voice Changer",
+  "short_name": "Opera Voice",
+  "description": "Real-time AI voice studio and audio effects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090812",
+  "theme_color": "#100b20",
+  "icons": [
+    { "src": "/brand/opera-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

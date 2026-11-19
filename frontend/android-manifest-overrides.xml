@@ -1,0 +1,7 @@
+<!-- Merge these entries into android/app/src/main/AndroidManifest.xml after `npx cap add android`. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature android:name="android.hardware.microphone" android:required="true" />
+    <!-- Needed only when the backend is served over HTTP on a trusted private LAN. Prefer HTTPS. -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>

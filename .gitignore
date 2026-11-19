@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+frontend/dist/
+
+# User data (presets, recordings)
+data/
+
+# Models (large binary files)
+models/*.onnx
+models/*.pth
+models/*.pt
+models/*.index
+models/assets/*
+!models/assets/.gitkeep
+!models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+tmp/

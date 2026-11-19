@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Setup and troubleshooting guide
+    url: https://github.com/sioaeko/OpenVoiceChanger/blob/main/docs/START_HERE.md
+    about: Check installation, Android limitations and common fixes before opening an issue.
+  - name: Security vulnerability reporting
+    url: https://github.com/sioaeko/OpenVoiceChanger/security/advisories/new
+    about: Report security issues privately when repository security advisories are enabled.

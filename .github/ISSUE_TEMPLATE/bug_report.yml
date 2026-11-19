@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible defect in Opera
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Opera version
+      placeholder: 5.0.0
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: OS and device
+      placeholder: Windows 11 / Pixel device / Android version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include exact steps and expected vs actual result.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs
+      description: Remove tokens, IPs if sensitive, personal recordings and private model paths.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: I removed secrets and personal data.
+          required: true
