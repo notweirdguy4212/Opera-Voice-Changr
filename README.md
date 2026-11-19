@@ -5,7 +5,7 @@
 > **Honest capability note:** Opera is a source project, not a prebuilt APK. Live neural conversion requires a compatible model and backend runtime. Android's native audio bridge and optional ONNX runner have narrower capabilities than the desktop RVC/Seed-VC backend. Read [Start here](docs/START_HERE.md) before installing.
 
 [![CI](https://github.com/sioaeko/OpenVoiceChanger/actions/workflows/ci.yml/badge.svg)](https://github.com/sioaeko/OpenVoiceChanger/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/sioaeko/OpenVoiceChanger)](https://github.com/sioaeko/OpenVoiceChanger/releases)
+[![Release](https://img.shields.io/github/v/release/sioaeko/OpenVoiceChanger)](https://github.com/notweirdguy4212/Opera-Voice-Changr/release)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Opera-5.0.0-10b981)](VERSION)
 
