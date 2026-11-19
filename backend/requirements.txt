@@ -15,5 +15,5 @@ praat-parselmouth>=0.4.7,<0.5.0
 pyworld>=0.3.5,<0.4.0
 soundfile>=0.12.1,<0.13.0
 torchaudio>=2.11.0
-torchcrepe>=0.0.22,<0.0.23
+torchcrepe>=0.0.24,<0.0.25
 torchfcpe>=0.0.4
